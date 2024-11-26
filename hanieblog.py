@@ -92,8 +92,4 @@ with col1:
     st.subheader("Hobbies & Interests")
     st.write(hobbies)
 
-with col2:
-    if uploaded_photo:
-        st.image(photo, caption=f"{name}'s Photo", use_column_width=True)
-    else:
-        st.write("No photo uploaded.")
+
