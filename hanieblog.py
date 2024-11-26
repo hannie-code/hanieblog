@@ -17,7 +17,7 @@ with col1:
     birth_date = datetime.strptime(birthday, "%B %d, %Y")
     age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
     
-    st.write(f"Age: {age}"
+    st.write(f"Age: {age}")
              
     gender = st.selectbox("Select your gender", ["Female", "Male", "Other", "Prefer not to say"])
 
